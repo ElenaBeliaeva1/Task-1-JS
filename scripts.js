@@ -12,9 +12,6 @@ function fucnInput (e) {
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                if(data === 0){
-                    alert('С сожалению, по вашему запросу ничего не найдено')
-                };
                 for (let i = 0; i < 5; i++){
                     let element = data.items[i];
                     let card = createCard(element);
