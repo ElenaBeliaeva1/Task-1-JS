@@ -1,0 +1,63 @@
+body {
+   background-color: grey; 
+}
+
+input {
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.search {
+    background-color: aqua;
+}
+
+.menu{
+    margin-top: 0;
+}
+
+.popupli{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;
+    height: auto;
+    list-style-type: none;
+    background-color: lightgrey;
+    border: 1px solid black;
+    text-align: start;
+}
+
+.popupli:hover {
+    background-color: lightskyblue;
+}
+
+.specialCard{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: auto;
+    background-color: burlywood;
+    margin-bottom: 15px;
+}
+
+p {
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+}
+
+.cross{
+    background-color: burlywood;
+    border: none;
+    height: 35px;
+    width: 35px;
+    background-image: url(img/cross-icon.png);
+    background-size: 35px 35px;
+    margin-left: auto;
+}
+
+.characteristics{
+    display: flex;
+    flex-direction: column;
+}
