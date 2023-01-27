@@ -4,7 +4,7 @@ let menu = document.querySelector('.menu');
 let specialMenu = document.querySelector('.list');
 //Функция которая ищет репозитории и очищает всплыфвающее меню, если оно было
 function fucnInput (e) {
-    let searchValue = this.value.strip();
+    let searchValue = this.value.trim();
     clearMenu();
     if (searchValue !== ''){
         //Должны вызвать запрос
